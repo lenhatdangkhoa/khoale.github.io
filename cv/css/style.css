@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+}
+.main-title-heading {
+    background-color:#FFFBEB;
+    height: 500px;
+    display: block;
+}
+.main-title-heading h1 {
+    text-align: center;
+    margin-top: 0;
+    padding-top: 5%;
+    font-size: 60px;
+    font-family: 'Secular One' , sans-serif;
+    color: #263159;
+}
+.profile-picture {
+    width: 250px;
+    height: 250px;
+    border: 5px solid #495579;
+    border-radius: 1000px;
+    position:absolute;
+    left:20%;
+
+}
+.main-title-heading h2{
+    text-align: center;
+    position: absolute;
+    left: 37%;
+    padding-left: 5%;
+    padding-top: 2%;
+    font-size: 45px;
+    font-family: 'Quicksand', sans-serif;
+    
+}
+.cards {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    width: 50%;
+    background-color: aqua;
+}
+.mainbody {
+    background-color: #495579;
+    height: 500px;
+}
+.mainbody > h1 {
+    margin:0;
+    text-align: center;
+    padding-top: 3%;
+    font-family: 'Secular One', sans-serif;
+    color: #FFFBEB;
+    font-size: 40px;
+}
+.mainbody > hr{
+    width: 25%;
+    background-color: green;
+}
+.mainbody > h2 {
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+}
