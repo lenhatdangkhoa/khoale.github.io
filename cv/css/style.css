@@ -108,12 +108,15 @@ body {
 .languages-section > h3 {
     font-family: 'Secular One', sans-serif;
     font-size: 35px;
-    padding-left:5%;
+    padding-left:10%;
     color :#FFFBEB;
+    position: relative;
+    bottom:-5%;
 }
 .languages-section ul {
     padding-left: 10%;
     list-style: none;
+    float:left;
 }
 .python_logo {
     width:100px;
@@ -136,8 +139,9 @@ body {
 .html_logo {
     width: 150px;
     position: absolute;
-    left: 42%;
+    left: 43%;
     top: 58%;
+    float: left;
 }
 .css_logo {
     width: 110px;
@@ -181,15 +185,19 @@ body {
 }
 .soc-uga {
     width: 350px;
-    position: absolute;
     left: 65%;
     top:25%;
+    float: right;
 }
 .experience-section > hr {
     width: 25%;
     height: 2px;
     border-width: 0px;
     background-color: #263159;
+}
+.experience-section dl {
+    position: absolute;
+    float:left;
 }
 .experience-section dt {
     font-size: 20px;
@@ -235,8 +243,9 @@ body {
 .problem-solving {
     width:200px;
     position: absolute;
-    left: 60%;
-    top: 30%;
+    left: 50%;
+    top: 50%;
+    float: right;
 }
 .skill-section dt {
     font-size : 25px;
@@ -244,6 +253,8 @@ body {
     padding-left: 5%;
     color: white;
     padding-top: 2%;
+    float: left;
+   
 }
 .contact {
     background-color: white;
@@ -306,10 +317,14 @@ body {
     left:25%;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
     width: 47%;
+    transition: 0.3s;
     background-color:  #495579;
     border-radius: 15px; 
     height: 300px;
 }
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
+  }
 .card-name {
     position: relative;
     left:5%;
