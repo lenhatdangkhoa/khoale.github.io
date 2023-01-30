@@ -6,32 +6,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Khoa Le</title>
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&family=Secular+One&family=Solitreo&display=swap" rel="stylesheet">
+
 </head>
-<body>
+<body class="contact-body">
     <h1>Contact Khoa Le</h1>
     <p>247 Morning Drive</p>
-    <br>
     <p>Athens, GA, 30606</p>
+    <p><b>(706)-461-6521</b></p>    
     <hr>
-    <p><b>(706)-461-6521</b></p>
-    <div class="cards">
+    <div class="card">
         <form action="mailto:khoale_nd@outlook.com" method="POST"> 
-            <div>
+            <div class="card-name">
                 <label for="name">Name</label> 
                 <input type="text" id="name" name="name" required> 
             </div>
             <br>
-            <div>
+            <div class="card-mail">
                 <label for="mailing">Email</label>
                 <input type="email" id="mailing" name="mailing" required>
             </div>
             <br>
-            <div>
+            <div class="card-textbox">
                 <label for="textbox">Message</label>
                 <textarea id="textbox" name="textbox" cols="25" rows="5"></textarea>
             </div>
             <br>
-            <div>
+            <div class="submit">
                 <input type="submit">
             </div>
         </form>
