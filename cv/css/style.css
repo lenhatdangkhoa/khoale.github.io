@@ -7,8 +7,13 @@ body {
     position: absolute;
     left:49%;
 }
+.div-image {
+    width: 150px;
+    position :absolute;
+    left:75%;
+    bottom: 55%;
+}
 .main-title-heading {
-
     height: 500px;
     display: block;
 }
