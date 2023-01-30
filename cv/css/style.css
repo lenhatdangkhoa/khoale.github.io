@@ -11,8 +11,9 @@ body {
     width: 150px;
     position :absolute;
     left:75%;
-    bottom: 55%;
+    bottom: 45%;
 }
+
 .main-title-heading {
     height: 500px;
     display: block;
@@ -31,7 +32,7 @@ body {
     border: 5px solid #495579;
     border-radius: 150px;
     position:absolute;
-    left:20%;
+    left:18%;
 
 }
 .main-title-heading h2{
@@ -47,9 +48,9 @@ body {
 .mainbody {
     background-color: #495579;
     height: 500px;
-    width:50%;
+    width:55%;
     position:relative;
-    left:25%;
+    left:22.5%;
     margin-top:5%;
     border-radius: 10px;
 }
@@ -90,9 +91,9 @@ body {
 
 .languages-section {
     background-color: #495579;
-    width:50%;
+    width:55%;
     position: relative;
-    left:25%;
+    left:22.5%;
     height: 500px;
     border-radius: 10px;
     margin-top: 7.5%;
@@ -158,7 +159,7 @@ body {
     width: 250px;
     position: absolute;
     top: 57%;
-    left: 75%;
+    left: 70%;
 }
 .languages-section li {
     font-size: 30px;
@@ -172,9 +173,9 @@ body {
 }
 .experience-section {
     background-color: #495579;
-    width: 50%;
+    width: 55%;
     position: relative;
-    left: 25%;
+    left: 22.5%;
     border-radius: 10px;
     margin-top: 7.5%;
     height: 500px;
@@ -189,7 +190,7 @@ body {
     color: blanchedalmond;
 }
 .soc-uga {
-    width: 350px;
+    width: 250px;
     left: 65%;
     top:25%;
     float: right;
@@ -224,9 +225,9 @@ body {
 }
 .skill-section {
     background-color:  #495579;
-    width:50%;
+    width:55%;
     position: relative;
-    left: 25%;
+    left: 22.5%;
     border-radius: 10px;
     margin-top: 7.5%;
     height: 500px;
@@ -246,10 +247,10 @@ body {
     background-color: #263159;
 }
 .problem-solving {
-    width:200px;
+    width:150px;
     position: absolute;
-    left: 50%;
-    top: 50%;
+    left: 40%;
+    top: 60%;
     float: right;
 }
 .skill-section dt {
@@ -266,7 +267,7 @@ body {
     cursor: pointer;
     position: relative;
     border-radius: 50px;
-    left: 43%;
+    left: 39%;
     width: 300px;
     height: 50px;
     margin-top: 3%;
@@ -385,8 +386,8 @@ textarea {
     position: absolute;
     width: 150px;
     height: 30px;
-    left:78%;
-    top:80%;
+    left:74%;
+    top:88%;
     border-radius: 10px;
     border:0;
     font-size: 20px;
